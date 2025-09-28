@@ -24,20 +24,17 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import Support from './pages/Support';
 import Terms from './pages/Terms';
 
-import { makeServer } from './components/server/mirage.server';
-if(import.meta.env.VITE_ENABLE_MIRAGE === "true"){
-   makeServer()
-} 
+ 
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
       <Route path='/login' element={<Login />} />
-      {/* <Route path='/forgotPassword' element={<ForgotPassword />} /> */}
+      <Route path='/forgotPassword' element={<ForgotPassword />} />
       <Route path='/register' element={<CreateAccount />} />
-{/*      
-      <Route path='/otpverifyAfterForgetPassword' element={<OtpVerifyAfterForgetPassword />} /> */}
+     
+      <Route path='/otpverifyAfterForgetPassword' element={<OtpVerifyAfterForgetPassword />} />
 
       <Route
         path='/'
