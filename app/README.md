@@ -1,16 +1,45 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Features
 
-Currently, two official plugins are available:
+- 🔐 **Authentication**  
+  - Login, Register, Forgot Password, OTP Verification
+- 👨‍💼 **Job Management**  
+  - View available jobs  
+  - Apply for jobs  
+  - Admin can create/manage jobs
+- 📝 **Assessments**  
+  - Take assessments for specific jobs  
+  - View assessment pages by ID
+- ⚙️ **Protected Routes**  
+  - Certain pages accessible only when authenticated
+- 📄 **Static Pages**  
+  - Privacy Policy, Terms & Conditions, Support page
+- ❌ **Custom 404 page** for invalid routes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** – Frontend framework  
+- **React Router v7** – Client-side routing  
+- **TailwindCSS** – Styling  
+- **Vite** – Build tool & development server  
+- **Axios** – HTTP client for future API integration  
+- **Deployed on Vercel**
 
-## Expanding the ESLint configuration
+### ⚡ Scripts (from `package.json`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `npm run dev` → Run project locally  
+- `npm run build` → Build production version  
+
+---
+
+## 📌 Note
+This assignment is implemented as **frontend-only**.  
+I am also capable of developing **backend functionality** (Node.js, Express, MongoDB, etc.) if required.
+
+---
+
+## 🔗 GitHub Repository
+
+[https://github.com/mithunjeet/TalentFlow](https://github.com/mithunjeet/TalentFlow)
